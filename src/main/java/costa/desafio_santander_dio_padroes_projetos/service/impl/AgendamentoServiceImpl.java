@@ -7,7 +7,9 @@ import costa.desafio_santander_dio_padroes_projetos.service.notificacao.Notifica
 import costa.desafio_santander_dio_padroes_projetos.service.notificacao.NotificadorWhatsapp;
 import costa.desafio_santander_dio_padroes_projetos.util.LoggerSingleton;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
+@Service
 public class AgendamentoServiceImpl implements AgendamentoService {
 
     @Autowired
